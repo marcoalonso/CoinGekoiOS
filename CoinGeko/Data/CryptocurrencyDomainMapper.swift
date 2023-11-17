@@ -9,7 +9,7 @@ import Foundation
 
 /// Su funcion será pasar de DTO a modelo de dominio
 class CryptocurrencyDomainMapper {
-    func getCryptocurrencyBuilderList(symbolList: [String], cryptoList: [CryptocurrecnyBasicDTO]) -> [CryptocurrencyBuilder] {
+    func getCryptocurrencyBuilderList(symbolList: [String], cryptoList: [CryptocurrencyBasicDTO]) -> [CryptocurrencyBuilder] {
         var symbolListDic = [String: Bool]()
         symbolList.forEach { symbol in
             symbolListDic[symbol] = true

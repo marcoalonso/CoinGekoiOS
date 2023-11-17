@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CryptocurrecnyBasicDTO: Codable {
+struct CryptocurrencyBasicDTO: Codable {
     let id: String
     let symbol: String
     let name: String
